@@ -69,7 +69,6 @@
             label2.Size = new Size(222, 33);
             label2.TabIndex = 1;
             label2.Text = "Giới hạn dãy số";
-            label2.Click += label2_Click;
             // 
             // label3
             // 
@@ -115,7 +114,6 @@
             label5.Size = new Size(119, 33);
             label5.TabIndex = 1;
             label5.Text = "Kết quả";
-            label5.Click += label2_Click;
             // 
             // label6
             // 
@@ -164,7 +162,6 @@
             inputTong.ReadOnly = true;
             inputTong.Size = new Size(189, 33);
             inputTong.TabIndex = 3;
-            inputTong.TextChanged += textBox1_TextChanged;
             // 
             // inputTich
             // 
@@ -219,6 +216,7 @@
             AutoScaleDimensions = new SizeF(12F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.DarkOliveGreen;
+            BackgroundImageLayout = ImageLayout.None;
             ClientSize = new Size(1137, 633);
             Controls.Add(button2);
             Controls.Add(button1);
